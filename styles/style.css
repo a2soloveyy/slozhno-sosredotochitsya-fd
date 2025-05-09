@@ -180,7 +180,6 @@
   font-size: 1.25rem;
 }
 
-/* Стили только для этой секции */
 .advice-section {
   display: grid;
   grid-template-columns: 1fr 2fr;
@@ -200,7 +199,6 @@
   grid-column: 2;
 }
 
-/* Адаптив для мобилок */
 @media (max-width: 768px) {
   .advice-section {
     grid-template-columns: 1fr;
@@ -293,7 +291,6 @@
 .gallery__item-wide {
   grid-column: 1 / -1;
 }
-
 
 .footer {
   position: relative;
