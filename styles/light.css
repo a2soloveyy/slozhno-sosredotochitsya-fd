@@ -17,6 +17,7 @@
   --page-bg-image: url(../images/cover-image-light.png);
   --decor-color: #353430;
   --rec-display: none;
+  --section-heading-color: #353430;
 }
 
 @media (prefers-color-scheme: light) {
@@ -38,4 +39,8 @@
     --decor-color: #353430;
     --rec-display: none;
   }
+}
+
+.content-section__title {
+  color: var(--section-heading-color);
 }
