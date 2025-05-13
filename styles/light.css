@@ -1,46 +1,26 @@
-/*
-  Специально для светлой темы при наличии класса.
-  Здесь окажутся стили, которые нужно переопределить принудительно,
-  переключая тему
-*/
 
-.theme-light .page {
-   /*Вам также нужно будет написать ряд подобных селекторов */
-}
-
-
-:root.theme-light {
-  --bg-color: #FFF1F7;
+.page.theme_light {
   --text-color: #353430;
-  --accent-color: #FF8DCB;
-  --title-color: #FFC2E6;
-  --page-bg-image: url(../images/cover-image-light.png);
-  --decor-color: #353430;
-  --rec-display: none;
-  --section-heading-color: #353430;
+  --accent-color: #ff8dcb;
+  --brand-color: #ffc2e6;
+  --highlight-color: #353430;
+  --secondary-color: #353430;
+  --secondary-color-o-40: #35343040;
+  --page-background-color: #fff1f7;
+  --page-background-image: url("../images/cover-image-light.png");
+  --rec-decor-visibility: hidden;
 }
 
 @media (prefers-color-scheme: light) {
   :root {
-      --bg-color: #FFF1F7;
-      --text-color: #353430;
-      --accent-color: #FF8DCB;
-      --title-color: #FFC2E6;
-      --page-bg-image: url(../images/cover-image-light.png);
+    --text-color:#353430;
+    --accent-color: #ff8dcb;
+    --brand-color: #ffc2e6;
+    --highlight-color: #353430;
+    --secondary-color: #353430;
+    --secondary-color-o-40: #35343040;
+    --page-background-color: #fff1f7;
+    --page-background-image: url("../images/cover-image-light.png");
+    --rec-decor-visibility: hidden;
   }
-}
-
-:root.theme-light .rec-label {
-  display: var(--rec-display);
-}
-
-@media (prefers-color-scheme: light) {
-  :root {
-    --decor-color: #353430;
-    --rec-display: none;
-  }
-}
-
-.content-section__title {
-  color: var(--section-heading-color);
 }

@@ -1,9 +1,12 @@
 :root {
-  --main-font: 'IBM Plex Mono', monospace;
-  --page-bg-image: initial;
-  --bg-color: #FFF1F7;
-  --text-color: #353430;
-  --accent-color: #FF8DCB;
-  --title-color: #FFC2E6;
-  --decor-color: #353430;
+  --text-color:#f1b2ce;
+  --brand-color: #db00ff;
+  --secondary-color: #ff0070;
+  --secondary-color-o-40: #ff007040;
+  --accent-color: #ff0070;
+  --highlight-color: #000028;
+  --page-font-family: "IBM Plex mono", monospace;
+  --page-background-image: url("../images/cover-image.png");
+  --page-background-color: var(--color-black-1, #000028);
+  --rec-decor-visibility: visible;
 }
