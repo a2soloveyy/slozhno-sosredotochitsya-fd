@@ -19,15 +19,13 @@
 .page::before {
   content: "";
   position: absolute;
-  top: 100vh;
   left: 0;
   right: 0;
   bottom: 0;
   z-index: -1;
   background: var(--page-background-image) center/cover no-repeat fixed;
-  top: calc(1vh - 58px); 
+  top: calc(1vh - 58px);
 }
-
 
 
 .cover {
@@ -191,7 +189,7 @@
 
 
 .header__theme-menu {
-  margin-block: 65px;
+  margin-block: 67px;
   justify-self: end;
 }
 
