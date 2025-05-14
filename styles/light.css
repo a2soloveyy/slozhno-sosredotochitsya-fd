@@ -1,5 +1,5 @@
 
-.page.theme_light {
+html.theme-light {
   --text-color: #353430;
   --accent-color: #ff8dcb;
   --brand-color: #ffc2e6;
@@ -24,3 +24,4 @@
     --rec-decor-visibility: hidden;
   }
 }
+

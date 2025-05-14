@@ -10,14 +10,24 @@
   font-size: 18px;
   line-height: 23.4px;
   background-color: var(--page-background-color, #000028);
-  background-image: var(
-    --page-background-image,
-    url("../images/cover-image.png")
-  );
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
 }
+
+
+.page::before {
+  content: "";
+  position: absolute;
+  top: 100vh;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  background: var(--page-background-image) center/cover no-repeat fixed;
+  top: calc(1vh - 58px); 
+}
+
 
 
 .cover {
@@ -36,7 +46,7 @@
 .decorated-zone::after {
   content: "";
   position: absolute;
-  z-index: -1;
+  z-index: 0;
   inline-size: 25px;
   block-size: 25px;
 }
@@ -60,6 +70,7 @@
 
 .link {
   text-decoration: none;
+  text-shadow: 2px 1px 0 var(--accent-color, #ff007)
 }
 
 
@@ -78,7 +89,7 @@
 }
 
 
-.rec-decor{
+.rec-decor {
   align-items: center;
   gap: 10px;
   inset-inline-end: 20px;
@@ -194,7 +205,7 @@
 
 .header__theme-menu-button {
   border: 1px solid transparent;
-  background: transparent;
+  background: none;
   cursor: pointer;
   padding: 2px 12px;
   color: var(--secondary-color, #ff0070);
