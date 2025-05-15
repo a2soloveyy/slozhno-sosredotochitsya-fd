@@ -10,30 +10,30 @@
   font-size: 18px;
   line-height: 23.4px;
   background-color: var(--page-background-color, #000028);
-  background-position: center;
+  background-position: center bottom;
   background-size: cover;
   background-attachment: fixed;
+  position: relative;
+  min-height: 100vh;
 }
 
 
 .page::before {
   content: "";
   position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 0;
+  inset: 0;
   z-index: -1;
   background: var(--page-background-image) center/cover no-repeat fixed;
-  top: calc(1vh - 58px);
+  min-height: 100vh;
 }
+  
 
-
-.cover {
+.cover { 
   display: grid;
-  min-block-size: 100vh;
+  min-height: max(100vh, 668px);
   padding: clamp(10px, 0.0286rem + 2.5445vw, 20px);
+  box-sizing: border-box;
 }
-
 
 .decorated-zone {
   position: relative;
@@ -68,12 +68,13 @@
 
 .link {
   text-decoration: none;
-  text-shadow: 2px 1px 0 var(--accent-color, #ff007)
+  transition: border-bottom 0.3s ease;
 }
 
 
 .link:hover {
-  text-decoration: underline;
+  border-bottom: 1px solid currentColor;
+  padding-bottom: 2px;
 }
 
 
@@ -137,6 +138,11 @@
 .title-decorated {
   color: var(--highlight-color, #000028);
   background: var(--accent-color, #ff0070);
+}
+
+
+.section-how__articles-list .title-decorated {
+  font-weight: 400;
 }
 
 
