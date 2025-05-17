@@ -14,9 +14,6 @@
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
-  background-repeat: no-repeat;
-  min-height: 100vh;
-  position: relative;
 }
 
 
@@ -111,7 +108,7 @@
 }
 
 
-.page-title {
+.shadow-decorated  {
   text-shadow: 4px 4px 0 var(--accent-color, #ff0070);
   color: var(--brand-color, #db00ff);
   font-weight: 700;
@@ -120,8 +117,14 @@
 }
 
 
+.page-title.shadow-decorated:first-child {
+  text-shadow: 4px 4px 0 var(--accent-color, #ff0070);
+}
+
+
 .footer .shadow-decorated {
   text-shadow: 2px 2px 0 var(--accent-color, #ff0070);
+  font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
 }
 
 
