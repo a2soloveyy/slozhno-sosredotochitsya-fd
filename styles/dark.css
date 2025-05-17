@@ -9,18 +9,3 @@
   --page-background-image: url("../images/cover-image-dark.png");
   --rec-decor-visibility: visible;
 }
-
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --text-color: #F1B2CE;
-    --brand-color: #DB00FF;
-    --secondary-color: #FF0070;
-    --secondary-color-alpha: #FF007040;
-    --accent-color: #FF0070;
-    --highlight-color: #000028;
-    --page-background-color: #000028;
-    --page-background-image: url("../images/cover-image-dark.png");
-    --rec-decor-visibility: visible;
-  }
-}

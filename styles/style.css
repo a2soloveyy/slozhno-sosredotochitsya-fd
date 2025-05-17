@@ -19,13 +19,6 @@
   position: relative;
 }
 
-.page::before {
-  content: "";
-  position: absolute;
-  z-index: -1;
-  background: var(--page-background-color, #000028);
-}
-  
 
 .cover {
   display: grid;
@@ -126,6 +119,10 @@
   line-height: 82.5%;
 }
 
+.footer .shadow-decorated {
+  text-shadow: 2px 2px 0 var(--accent-color, #ff0070);
+  font-size: clamp(5rem, 4.5rem + 2.5vw, 7rem);
+}
 
 .title {
   font-size: inherit;
