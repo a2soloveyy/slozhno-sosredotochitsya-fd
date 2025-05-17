@@ -2,7 +2,7 @@
   --text-color: #f1b2ce;
   --brand-color: #db00ff;
   --secondary-color: #ff0070;
-  --secondary-color-o-40: #ff007040;
+  --secondary-color-alpha: #ff007040;
   --accent-color: #ff0070;
   --highlight-color: #000028;
   --page-background-color: #000028;
@@ -15,7 +15,7 @@
     --text-color: #f1b2ce;
     --brand-color: #db00ff;
     --secondary-color: #ff0070;
-    --secondary-color-o-40: #ff007040;
+    --secondary-color-alpha: #ff007040;
     --accent-color: #ff0070;
     --highlight-color: #000028;
     --page-background-color: #000028;
