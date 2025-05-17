@@ -13,7 +13,6 @@
   background-position: center bottom;
   background-size: cover;
   background-attachment: fixed;
-  position: relative;
   min-height: 100vh;
 }
 
@@ -180,10 +179,6 @@
   gap: 10px;
 }
 
-
-.gallery-list__item {
-  overflow: hidden;
-}
 
 
 .gallery-list__item-img {
