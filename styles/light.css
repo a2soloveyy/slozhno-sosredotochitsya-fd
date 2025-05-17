@@ -1,8 +1,8 @@
 :root.theme-light {
  --text-color: #353430;
-  --accent-color: #ff8dcb;
+  --accent-color: #FF8DCB;
   --brand-color: #ffc2e6;
-  --highlight-color: #353430;
+  --highlight-color: м;
   --secondary-color: #353430;
   --secondary-color-alpha: #35343040;
   --page-background-color: #fff1f7;
@@ -13,7 +13,7 @@
 @media (prefers-color-scheme: light) {
   :root {
     --text-color:#353430;
-    --accent-color: #ff8dcb;
+    --accent-color: #FF8DCB;
     --brand-color: #ffc2e6;
     --highlight-color: #353430;
     --secondary-color: #353430;

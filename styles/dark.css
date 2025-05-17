@@ -1,9 +1,9 @@
 :root.theme-dark {
-  --text-color: #f1b2ce;
-  --brand-color: #db00ff;
-  --secondary-color: #ff0070;
+  --text-color: #F1B2CE;
+  --brand-color: #DB00FF;
+  --secondary-color: #FF0070;
   --secondary-color-alpha: #ff007040;
-  --accent-color: #ff0070;
+  --accent-color: #FF0070;
   --highlight-color: #000028;
   --page-background-color: #000028;
   --page-background-image: url("../images/cover-image-dark.png");
@@ -12,11 +12,11 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --text-color: #f1b2ce;
-    --brand-color: #db00ff;
-    --secondary-color: #ff0070;
+    --text-color: #F1B2CE;
+    --brand-color: #DB00FF;
+    --secondary-color: #FF0070;
     --secondary-color-alpha: #ff007040;
-    --accent-color:  #ff0070;
+    --accent-color:  #FF0070;
     --highlight-color: #000028;
     --page-background-color: #000028;
     --page-background-image: url("../images/cover-image-dark.png");

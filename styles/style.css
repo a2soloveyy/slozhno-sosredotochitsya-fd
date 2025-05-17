@@ -30,10 +30,10 @@
 
 .cover {
   display: grid;
-  min-height: max(100vh, 668px);
+  min-block-size: max(100vh, 668px);
   padding: clamp(10px, 0.0286rem + 2.5445vw, 20px);
-  box-sizing: border-box;
 }
+
 
 .decorated-zone {
   position: relative;
@@ -69,6 +69,7 @@
 .link {
   text-decoration: none;
   transition: border-bottom 0.3s ease;
+  text-shadow: 2px 2px 0 var(--accent-color, #ff0070);
 }
 
 
@@ -177,6 +178,11 @@
 .gallery-list {
   display: grid;
   gap: 10px;
+}
+
+
+.gallery-list__item {
+  overflow: hidden;
 }
 
 
