@@ -11,7 +11,7 @@
   line-height: 23.4px;
   background-color: var(--page-background-color, #000028);
   background-image: var(--page-background-image);
-  background-position: center bottom;
+  background-position: center;
   background-size: cover;
   background-attachment: fixed;
 }
