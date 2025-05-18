@@ -1,10 +1,10 @@
 :root.theme-light {
- --text-color: #353430;
+  --text-color: #353430;
   --accent-color: #FF8DCB;
   --brand-color: #ffc2e6;
   --highlight-color: #353430;
   --secondary-color: #353430;
-  --secondary-color-alpha: #35343040;
+  --secondary-color-alpha: #32312D66;
   --page-background-color: #fff1f7;
   --page-background-image: url("../images/cover-image-light.png");
   --rec-decor-visibility: hidden;
@@ -17,7 +17,7 @@
     --brand-color: #ffc2e6;
     --highlight-color: #353430;
     --secondary-color: #353430;
-    --secondary-color-alpha: #35343040;
+    --secondary-color-alpha: #32312D66;
     --page-background-color: #fff1f7;
     --page-background-image: url("../images/cover-image-light.png");
     --rec-decor-visibility: hidden;

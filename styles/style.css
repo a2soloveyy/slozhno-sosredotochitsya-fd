@@ -65,11 +65,14 @@
 .link:hover {
   border-bottom: 1px solid currentColor;
   padding-bottom: 2px;
+  border-color: var(--text-color,#F1B2CE);
 }
 
 
 .link:focus {
   outline: 0;
+  border: 1px solid transparent;
+  border-color: var(--text-color,#F1B2CE);
 }
 
 
@@ -101,7 +104,7 @@
   content: "";
   display: inline-block;
   border-radius: 50%;
-  box-shadow: 0 0 2px 2px var(--accent-color, #ff0070);
+  box-shadow: 0 0 3px 3px var(--accent-color, #ff0070);
   background: var(--accent-color, #ff0070);
   inline-size: 9px;
   block-size: 9px;
@@ -228,12 +231,13 @@
 
 
 .header__theme-menu-button:hover {
-  border-color: var(--secondary-color-o-40, #ff007040);
-}
+  border-color: var(--secondary-color-alpha, #32312D66);
+}  
 
 
 .header__theme-menu-button:focus {
   outline: 0;
+  border-bottom: 1px solid currentColor;
 }
 
 
